@@ -1,0 +1,21 @@
+{
+  "name": "lesson1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "homework.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-polyfill": "^6.16.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-es2015-node4": "^2.1.0",
+    "babel-preset-stage-0": "^6.16.0"
+  },
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "request": "^2.79.0"
+  }
+}
