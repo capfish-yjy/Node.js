@@ -2,24 +2,24 @@
 this is a read me file
 
 
-use proxy for npm
+#use proxy for npm
 npm config set proxy http://www-3g.dienste.telekom.de:8080
 npm config set https-proxy http://www-3g.dienste.telekom.de:8080
 
-Create .babelrc in the root of the project
-{
-    "presets": ["es2015","stage-0"]
+#Create .babelrc in the root of the project
+{  
+    "presets": ["es2015","stage-0"]  
 }
 
-init
+#init
 npm init
 
 
-Install babel and modules
-npm install --global babel-cli
-npm install --save-dev babel-preset-es2015 babel-preset-stage-0
-npm install babel-polyfill --save-dev
-npm install request cheerio --save-dev
+#Install babel and modules
+npm install --global babel-cli  
+npm install --save-dev babel-preset-es2015 babel-preset-stage-0  
+npm install babel-polyfill --save-dev  
+npm install request cheerio --save-dev  
 
 
 
@@ -42,11 +42,14 @@ $ babel src -d lib
 $ babel src -d lib -s
 
 
-for node4
+#for node4
 {
     "presets": ["es2015-node4","stage-0"]
 }
 npm install --save-dev babel-preset-es2015-node4
 
 
-babel example.js -o output.js 
+babel example.js -o output.js
+
+watch the changing of the example.js and compile it automatic into output
+babel example.js -o output.js -w
