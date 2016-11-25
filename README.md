@@ -3,8 +3,8 @@ this is a read me file
 
 
 #use proxy for npm
-npm config set proxy http://www-3g.dienste.telekom.de:8080
-npm config set https-proxy http://www-3g.dienste.telekom.de:8080
+npm config set proxy http://www-3g.dienste.telekom.de:8080  
+npm config set https-proxy http://www-3g.dienste.telekom.de:8080  
 
 #Create .babelrc in the root of the project
 {  
@@ -43,13 +43,13 @@ $ babel src -d lib -s
 
 
 #for node4
-{
-    "presets": ["es2015-node4","stage-0"]
-}
-npm install --save-dev babel-preset-es2015-node4
+{  
+    "presets": ["es2015-node4","stage-0"]  
+}  
+npm install --save-dev babel-preset-es2015-node4  
 
 
-babel example.js -o output.js
+babel example.js -o output.js  
 
-watch the changing of the example.js and compile it automatic into output
-babel example.js -o output.js -w
+watch the changing of the example.js and compile it automatic into output  
+babel example.js -o output.js -w  
